@@ -1,0 +1,140 @@
+/*Configs da base do site*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darksalmon;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.site {
+    width: 80dvw;
+    height: full;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #6082B6;
+
+}
+
+#topo img {
+    width: 100%;
+    height: 350px;
+    border-radius: 16px;
+    border: 2px solid darkslateblue;
+}
+
+#menu {
+    width: auto;
+    border: 2px solid darkslateblue;
+    border-radius: 16px;
+    padding: 30px;
+    margin: 20px;
+    background-color: cadetblue;
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+    }
+}
+
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    border: 2px solid darkslateblue;
+    border-radius: 16px;
+    padding: 30px;
+    margin: 20px;
+    background-color: cadetblue;
+}
+
+#conteudo p {
+    font-size: 1.2em;
+    font-family: Verdana;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+
+}
+
+span img {
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+}
+
+main p {
+    justify-self: center;
+    margin-bottom: 15px;
+}
+
+table p {
+    color: antiquewhite;
+}
+
+
+#rodape {
+    background-color: black;
+    border-radius: 16px;
+    width: auto;
+    padding: 30px;
+    margin: 20px;
+}
+
+#rodape h3 {
+    text-align: center;
+    font-family: Haettenschweiler;
+}
+
+a {
+    text-decoration: none;
+    transition: 250ms;
+}
+
+a:link, a:visited {
+    color: #000080;
+    padding: 5px;
+    font-size: 14pt;
+}
+
+a:hover {
+    color: white;
+    text-decoration: dashed;
+}
+
+/*CSS Página Barcelona / Paris / Buenos Aires / New York / Londres */
+
+#conteudoPgs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#conteudoPgs aside {
+    display: flex;
+    gap: 20px;
+}
+
+#conteudoPgs img {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
